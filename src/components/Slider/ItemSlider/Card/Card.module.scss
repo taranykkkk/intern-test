@@ -1,0 +1,42 @@
+.slider__item {
+  position: relative;
+
+  img {
+    margin-bottom: 15px;
+  }
+
+  h3 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    font-variant: small-caps;
+    color: var(--black-80);
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    font-variant: small-caps;
+    color: var(--black-60);
+  }
+
+  span {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 200%;
+    font-variant: small-caps;
+    color: #4aaa4e;
+  }
+
+  .likes {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+  }
+}

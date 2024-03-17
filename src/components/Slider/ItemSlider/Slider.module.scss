@@ -1,0 +1,44 @@
+.slider__container {
+  position: relative;
+  margin-bottom: 79px;
+
+  .slider__title {
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1060px;
+    margin-bottom: 42px;
+
+    h2 {
+      font-family: var(--font-family);
+      font-weight: 500;
+      font-size: 26px;
+      line-height: 154%;
+      font-variant: small-caps;
+      color: var(--black-80);
+    }
+
+    .countPages {
+      font-family: var(--font-family);
+      font-weight: 500;
+      font-variant: small-caps;
+      color: var(--black-80);
+    }
+  }
+
+  .arrowPrev {
+    position: absolute;
+    top: -75px;
+    right: 60px;
+    cursor: pointer;
+  }
+
+  .arrowNext {
+    width: 25px;
+    position: absolute;
+    top: -75px;
+    right: 20px;
+    cursor: pointer;
+  }
+}

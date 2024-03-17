@@ -1,0 +1,60 @@
+.sendEmail__container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 108px;
+  border-top: 1px solid var(--black-40);
+  height: 274px;
+
+  h2 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 38px;
+    text-align: center;
+    color: var(--black-80);
+  }
+
+  p {
+    max-width: 570px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    font-variant: small-caps;
+    text-align: center;
+    color: var(--black-80);
+  }
+
+  .input__block {
+    border: 1px solid var(--black-60);
+    border-radius: 15px;
+    width: 570px;
+    height: 51px;
+    background: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    input {
+      font-family: var(--font-family);
+      font-weight: 300;
+      font-size: 16px;
+      text-transform: uppercase;
+      color: var(--black-40);
+      padding: 0 20px;
+    }
+
+    button {
+      border-radius: 15px;
+      padding: 16px 35px;
+      background: var(--black-60);
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 16px;
+      font-variant: small-caps;
+      color: var(--white);
+    }
+  }
+}

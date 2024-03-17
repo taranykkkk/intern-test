@@ -1,0 +1,48 @@
+.infoCataloge {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 80px;
+
+  .leftBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 570px;
+    font-family: var(--font-family);
+    font-variant: small-caps;
+
+    h2 {
+      font-weight: 500;
+      font-size: 38px;
+      line-height: 132%;
+      color: var(--black-80);
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      font-variant: small-caps;
+      color: var(--black-60);
+      width: 340px;
+    }
+
+    button {
+      border-radius: 15px;
+      padding: 10px 0;
+      width: 165px;
+      background: var(--black-100);
+
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      font-variant: small-caps;
+      color: var(--white);
+    }
+  }
+  .rightBlock {
+    display: flex;
+  }
+}
