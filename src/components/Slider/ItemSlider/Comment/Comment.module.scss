@@ -8,14 +8,14 @@
 
   .title {
     display: flex;
-    justify-content: space-between;
+    gap: 20px;
     align-items: center;
     margin-bottom: 20px;
 
     .title__description {
       h4 {
         font-family: var(--font-family);
-        font-weight: 500;
+        font-weight: bold;
         font-size: 16px;
         line-height: 187%;
         font-variant: small-caps;

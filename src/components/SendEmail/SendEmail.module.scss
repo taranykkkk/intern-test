@@ -10,10 +10,11 @@
 
   h2 {
     font-family: var(--font-family);
-    font-weight: 500;
+    font-weight: bold;
     font-size: 38px;
     text-align: center;
     color: var(--black-80);
+    font-variant: small-caps;
   }
 
   p {
